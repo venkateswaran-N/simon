@@ -1,0 +1,454 @@
+body{
+    margin: 0%;
+    background-color:  #f5f5ef;
+}
+.simon-intro-cont{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 0.2fr;
+    margin: 0;
+    background-color: #f5f5ef;
+    font-family: 'Edu QLD Hand';
+}       
+.simon-intro{
+    margin: 20px;
+}
+.ralph-image1 {
+       width: 350px;
+       height: 500px;
+       grid-column-start: 2;
+
+}
+
+.founder-title{ 
+   font-family: 'Honk';
+   font-size: 3rem;
+}
+
+.founder-sub-title{
+    font-family: 'Wire One';
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    
+}
+
+span{
+    color: #FF9F00;
+    
+}
+.founder-about{
+    font-family: 'Alumni Sans SC';
+    margin: 30px auto 10px auto;
+    font-size: 2rem;
+    text-wrap: wrap;
+
+}
+
+.simon-navbar{
+    background-color:   black;
+    padding: 10px;
+    display: static;
+}
+
+.simon-navbar li.contact {
+  margin-left: auto; 
+  margin-right: 20px;
+}
+.simon-navbar>ul>li>.nav-button3{
+    border-radius: 0px 10px 10px 0px;
+}
+.simon-navbar>ul>li>.nav-button1{
+    border-radius: 10px 0px 0px 10px;
+}
+.simon-navbar>ul>li>button{
+    background: none;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: 'Medula One';
+    font-size: 2rem;
+    background-color: rgb(135 36 86);
+    padding: 10px;
+
+
+}
+.simon-navbar>ul{
+   
+   list-style: none;
+   gap: 1rem;   
+       display:flex;
+   
+}
+
+
+.game-container{
+    text-align: center;
+}
+.game-heading{
+    font-family: 'Press Start 2P';
+    font-size: 3rem;
+    text-align: center ;
+    
+}
+
+.how-to-play-cont{
+    display: grid;
+    grid-template-columns: 0.5fr auto;
+    margin: 0;
+    
+}
+
+.how-to-play-heading-cont{
+    margin:0px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Bungee';
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+
+}
+
+.how-to-play-heading{
+    padding: 20px;
+}
+.how-to-play-para>ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+
+}
+.how-to-play-para{
+    font-family: 'Alumni Sans SC';
+    font-size: 2rem;
+    background-color: #FF9F00;
+    color:black;
+    padding: 30px; 
+}
+
+.game-flex{
+    display: flex;
+    align-items: center;
+    background-color:#f5f5ef ;
+    justify-content: center;
+}
+
+
+.game-btn-cont-row{
+    background-color: black;
+}
+
+#row-2-padding{
+    padding-bottom: 15px;
+}
+
+.game-heading,.game-heading2{
+    background-color:#f5f5ef;
+    margin: 0;
+    padding: 50px;
+}
+
+
+.simon-png{
+   width: 100px;
+   margin: 0px;
+}
+
+.game-heading2{
+   font-family: 'Iceland' ;
+   padding: 10;
+   background-color: black;
+   color: #FF9F00;
+   font-size: 2rem;
+}
+
+.game-button{
+   display: inline-block;
+   height: 200px;
+   width: 200px;
+   border:10px solid white;
+   border-radius: 20%;
+   margin: 25px;
+   
+}
+
+.green{
+   background-color: #118B50;
+}
+.red{
+    background-color: #FF3F33;
+}
+.yellow{
+    background-color: #FFB200;
+}
+.blue{
+    background-color: #4DA8DA;
+}
+
+
+.contact-section{
+    display: flex;
+    background-color:#f5f5ef;
+    padding: 50px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+}
+
+.image{
+    width: 40px;
+
+}
+
+
+.contact-para{
+    text-align: center;
+    font-family: 'Medula One';
+    font-size: 2rem;
+    margin-top: 10px;
+    color: black;
+    padding: 1px;   
+
+}
+
+@media(max-width:768px){
+    body{
+    margin: 0%;
+    background-color:  #f5f5ef;
+}
+.simon-intro-cont{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 2fr;
+    grid-template-rows: 0.5fr;
+    margin: 0;
+    background-color: #f5f5ef;
+    font-family: 'Edu QLD Hand';
+}       
+.simon-intro{
+    margin: 20px;
+}
+.ralph-image1 {
+       display: flex;
+       position: sticky;
+       width:300px;
+       height: 400px;
+       grid-column-start: 1;
+       margin: 0px 20px 20px 95px;
+
+}
+
+.founder-title{ 
+   font-family: 'Honk';
+   font-size: 2.5rem;
+}
+
+.founder-sub-title{
+    font-family: 'Wire One';
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    
+}
+
+span{
+    color: #FF9F00;
+    
+}
+.founder-about{
+    font-family: 'Alumni Sans SC';
+    margin: 30px auto 10px auto;
+    font-size: 2rem;
+    text-wrap: wrap;
+
+}
+
+.simon-navbar{
+    background-color:   black;
+    padding: 5px;
+
+}
+
+.simon-navbar li.contact {
+  margin-left: auto; 
+  margin-right: 20px;
+}
+.simon-navbar>ul>li>.nav-button3{
+    border-radius: 0px 10px 10px 0px;
+}
+.simon-navbar>ul>li>.nav-button1{
+    border-radius: 10px 0px 0px 10px;
+}
+.simon-navbar>ul>li>button{
+    background: none;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: 'Medula One';
+    font-size: 1.5rem;
+    background-color: rgb(135 36 86);
+    padding: 6px;
+
+
+}
+.simon-navbar>ul{
+   
+   list-style: none;
+   gap: 1rem;   
+   display:flex;
+   
+}
+
+
+.game-container{
+    text-align: center;
+}
+.game-heading{
+    font-family: 'Press Start 2P';
+    font-size: 2.5rem;
+    text-align: center ;
+    
+}
+
+.how-to-play-cont{
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr;
+    margin: 0;    
+}
+
+.how-to-play-heading-cont{
+
+    margin:0px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Bungee';
+    background-color: black;
+    color: white;
+
+
+}
+
+.how-to-play-heading{
+    padding: 5px;
+    font-size: 1.5rem;
+}
+.how-to-play-para>ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+
+}
+.how-to-play-para{
+    font-family: 'Alumni Sans SC';
+    font-size: 2rem;
+    background-color: #FF9F00;
+    color:black;
+    padding: 20px; 
+}
+
+.game-flex{
+    display: flex;
+    align-items: center;
+    background-color:#f5f5ef ;
+    justify-content: center;
+}
+
+
+.game-btn-cont-row{
+    background-color: black;
+}
+
+#row-2-padding{
+    padding-bottom: 15px;
+}
+
+.game-heading,.game-heading2{
+    background-color:#f5f5ef;
+    margin: 0;
+    padding: 50px;
+}
+
+
+.simon-png{
+   width: 70px;
+   margin: 0px;
+}
+
+.game-heading2{
+   font-family: 'Iceland' ;
+   padding: 10;
+   background-color: black;
+   color: #FF9F00;
+}
+
+.game-button{
+   display: inline-block;
+   height: 100px;
+   width: 100px;
+   border:10px solid white;
+   border-radius: 20%;
+   margin: 25px;
+   
+}
+
+.green{
+   background-color: #118B50;
+}
+.red{
+    background-color: #FF3F33;
+}
+.yellow{
+    background-color: #FFB200;
+}
+.blue{
+    background-color: #4DA8DA;
+}
+
+
+.contact-section{
+    display: flex;
+    background-color:#f5f5ef;
+    padding: 50px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+}
+
+.image{
+    width: 25px;
+
+}
+
+
+.contact-para{
+    text-align: center;
+    font-family: 'Medula One';
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: black;
+    padding: 1px;   
+
+}
+}
+
+
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.game-over{
+
+  background-color: red;
+  opacity: 0.8;
+}
