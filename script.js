@@ -81,7 +81,7 @@ function nextSequence(){
       
     
     var colorsaudio=new Audio("./"+randomChosenColors+".mp3");
-   colorsaudio.play();
+    colorsaudio.play();
 }
 
 
@@ -114,3 +114,27 @@ function startOver() {
   gamePattern = [];
   started = false;
 }
+
+
+
+$(".nav-button1").click(function(){
+
+$("html,body").animate({
+  scrollTop:$(".how-to-play-heading-cont").offset().top
+},800);
+
+})
+
+
+$(".nav-button3").click(function(){
+
+$("html,body").animate({
+  scrollTop:$(".contact-section").offset().top
+},900);
+
+})
+
+
+$(".nav-button2").click(function(){
+  window.open("https://venkateswaran-n.github.io/drumset/")
+})
